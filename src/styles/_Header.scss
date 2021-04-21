@@ -1,0 +1,35 @@
+@import './variables.scss';
+
+header{
+
+    background-color: white;
+    box-shadow: 20px 20px 20px 3px rgba(0, 0, 0, 0.08);
+    
+    nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+
+    .header-logo{
+        width: auto;
+        max-width: 150px;
+        height: auto;
+        max-height: 100px;
+    }
+    
+    .header-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 95%;
+        
+        li{
+            font-size: 2.2rem;
+        }
+    }
+}
+}

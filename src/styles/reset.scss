@@ -16,3 +16,19 @@
     }
     border: none;
   }
+
+  ul{
+    list-style-type: none;
+  }
+
+  a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}

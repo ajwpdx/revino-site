@@ -3,4 +3,5 @@ module.exports = {
     title: "revino-site",
   },
   plugins: ["gatsby-plugin-sass"],
+
 };
