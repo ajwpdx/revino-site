@@ -14,6 +14,9 @@ const IndexPage = () => {
         <img className="logo" src={logo} alt="revino logo" />
         <h2>WEBSITE COMING SOON</h2>
       </section>
+      <section id="how-it-works">
+
+      </section>
     </>
   )
 }
