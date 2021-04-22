@@ -1,13 +1,28 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $font-content;
+    color: $color-night-sky-blue;
 }
 
 h2{
     font-family: $font-title;
     font-size: 3.5rem;
+
+    font-weight: bold;
 }
 
 h3{
     font-family: $font-title;
     font-size: 2.5rem;
+    
+    font-weight: bold;
+}
+
+p, ul, ol, li{
+    font-size:1.8rem;
+
+}
+
+li{
+    margin-bottom: 5px;
+
 }
