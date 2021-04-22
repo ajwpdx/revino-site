@@ -1,67 +1,91 @@
-section{
+section {
   padding: 50px;
 }
 
-.section-container{
+.section-container {
   display: flex;
   flex-direction: column;
-  // align-items: center;
+  align-items: center;
   justify-content: center;
   margin: 0 auto;
-  width: 50%;
+  width: 55%;
 
-  h2{
+  h2 {
     margin-bottom: 10px;
   }
 }
 
-#welcome-to-revino{
-background-color: $color-light-sand;
-}
+// #welcome-to-revino{
+// background-color: $color-light-sand;
+// }
 
-#how-it-works{
-  background-color: $color-dark-plum;
-  color: $color-light-sand
-}
+// #how-it-works{
+//   background-color: $color-dark-plum;
+//   color: $color-light-sand
+// }
 
-#why-reuse{
-  background-color: $color-sky;
-}
+// #why-reuse{
+//   background-color: $color-sky;
+// }
 
-#sustainability{
-background-color: $color-night-sky-blue;
-color: $color-light-sand;
-}
+// #sustainability{
+// background-color: $color-night-sky-blue;
+// color: $color-light-sand;
+// }
 
-#contact{
-
-}
-
-// #home {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     height: 100vh;
-    
-//     background: url(../images//willamette-winery-photo.jpg) no-repeat center
-//     center fixed;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-
-//   .logo {
-//     width: 50%;
-//     max-width: 700px;
-//     padding: 30px;
-//   }
-
-//   h2{
-//       color:white;
-//       letter-spacing: 3px;
-//   }
-
+// #contact{
 
 // }
 
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  background: url(../images//willamette-winery-photo.jpg) no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .logo {
+    // width: 50%;
+    max-width: 750px;
+    padding: 30px;
+  }
+
+  .subtitle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      color: white;
+      letter-spacing: 3px;
+    }
+
+    p {
+      margin-bottom: 30px;
+      color: white;
+      font-size: 2.2rem;
+      // font-family: $font-title;
+      text-align: center;
+      // background-image: url("../images/brushstroke.svg");
+      // background-repeat: no-repeat;
+      // background-size: 100% 95%;
+      // padding: 8px 0;
+    }
+
+    button{
+      max-height: 100px;
+      color: white;
+    }
+
+    a{
+      color: white;
+    }
+  }
+}
