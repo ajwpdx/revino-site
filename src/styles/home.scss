@@ -1,40 +1,72 @@
-section{
+section {
   padding: 50px;
 }
 
-.section-container{
+.section-container {
   display: flex;
   flex-direction: column;
-  // align-items: center;
+  align-items: flex-start;
   justify-content: center;
   margin: 0 auto;
   width: 50%;
 
-  h2{
+  h2 {
     margin-bottom: 10px;
   }
 }
 
-#welcome-to-revino{
-background-color: $color-light-sand;
+#welcome-to-revino {
+  // height: 80vh;
+  background: url("../images//willamette-winery-photo.jpg") no-repeat center
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+
+  img{
+    margin: 10px;
+  }
+
+  p{
+    margin-top: 50px;
+  }
 }
 
-#how-it-works{
+#how-it-works {
+  background: url("../images/revino-pattern-background-14.png") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#why-reuse {
   background-color: $color-dark-plum;
-  color: $color-light-sand
+  color: $color-light-sand;
 }
 
-#why-reuse{
-  background-color: $color-sky;
+#sustainability {
+  background: url("../images/revino-pattern-background-14.png") no-repeat center
+  center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: $color-night-sky-blue;
 }
 
-#sustainability{
-background-color: $color-night-sky-blue;
-color: $color-light-sand;
-}
+#contact {
+  background-color: $color-night-sky-blue;
+  color: $color-light-sand;
 
-#contact{
-
+  button {
+    color: $color-light-sand;
+    border: 4px solid $color-light-sand;
+    margin: 15px;
+  }
 }
 
 // #home {
@@ -43,7 +75,7 @@ color: $color-light-sand;
 //     align-items: center;
 //     justify-content: center;
 //     height: 100vh;
-    
+
 //     background: url(../images//willamette-winery-photo.jpg) no-repeat center
 //     center fixed;
 //   -webkit-background-size: cover;
@@ -62,6 +94,4 @@ color: $color-light-sand;
 //       letter-spacing: 3px;
 //   }
 
-
 // }
-

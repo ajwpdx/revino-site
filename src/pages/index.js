@@ -15,7 +15,8 @@ const IndexPage = () => {
       </section> */}
       <section id="welcome-to-revino">
         <div className='section-container'>
-          <h2>Welcome to Revino!</h2>
+          <h2>Welcome to</h2>
+          <img src={logo} alt='revino logo'/>
           <p>We are building the refillable economy and ecosystem for glass bottles in the wine industry. Our purpose is to help develop a circular economy focused on the reuse and refilling of our glass bottles in Oregon wine communities. Why use a bottle once when it could be refilled 20 times</p>
         </div>
       </section>
@@ -56,10 +57,9 @@ const IndexPage = () => {
         <div className="section-container">
 
         <h2>The refillable bottle economy is here to stay, how are you going to play a role? </h2>
-        <p>Partner with us for the refillable movement</p>
-        <button>Sign Up</button>
+        {/* <p>Partner with us for the refillable movement</p> */}
+        <button>Contact Us</button>
         </div>
-
       </section>
 
     </>

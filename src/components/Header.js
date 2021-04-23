@@ -7,12 +7,12 @@ const Header = () => {
     return (
         <header>
             <nav>
+            <a href=""><img src={condensedLogo} alt="small revino logo" className="header-logo"/></a>
                 <ul className="header-nav">
                     <li><a href="#how-it-works">How It Works</a></li>
-                    <li><a href="/who-we-are">Who We Are</a></li>
-                    <li><a href=""><img src={condensedLogo} alt="small revino logo" className="header-logo"/></a></li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+                    <li><a href="">Who We Are</a></li>
+                    <li><a href="">Who We Are</a></li>
+                    <li><a href="">Who We Are</a></li>
                 </ul>
             </nav>
         </header>
