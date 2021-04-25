@@ -8,12 +8,17 @@ import Header from "../components/Header"
 const IndexPage = () => {
   return (
     <>
-      <Header />
-      {/* <section id="home">
+      {/* <Header /> */}
+      <section id="home">
+        <div className='section-container'>
         <img className="logo" src={logo} alt="revino logo" />
-        <h2>WEBSITE COMING SOON</h2>
-      </section> */}
-      <section id="welcome-to-revino">
+        <div className='subtitle-container'>
+        <p>Building the refillable glass bottle ecosystem for the wine industry.</p>
+        <button><a href="mailto:keenan@revinobottles.com">Get In Touch</a></button>
+        </div>
+      </div>
+      </section>
+      {/* <section id="welcome-to-revino">
         <div className='section-container'>
           <h2>Welcome to Revino!</h2>
           <p>We are building the refillable economy and ecosystem for glass bottles in the wine industry. Our purpose is to help develop a circular economy focused on the reuse and refilling of our glass bottles in Oregon wine communities. Why use a bottle once when it could be refilled 20 times</p>
@@ -60,7 +65,7 @@ const IndexPage = () => {
         <button>Sign Up</button>
         </div>
 
-      </section>
+      </section> */}
 
     </>
   )
