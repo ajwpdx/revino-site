@@ -4,6 +4,11 @@ header {
 //   background-color: $color-light-sand;
   box-shadow: $box-shadow-main;
   font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 1;
+  background-color: white;
 
   &:after {
     box-shadow: inset 3px 3px 10px 0 #000000;
@@ -13,11 +18,13 @@ header {
   }
 
   nav {
+    font-family: $font-title;
+    text-transform: uppercase;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
 
     .header-logo {
       width: auto;
@@ -32,7 +39,7 @@ header {
       flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
-      width: 95%;
+      width: 80%;
 
       li {
         font-size: 2.2rem;

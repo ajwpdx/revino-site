@@ -46,9 +46,9 @@ const IndexPage = () => {
         <div className="section-container">
           <h2>Sustainability</h2>
           <ul>
-            <li>Lower carbon footprint 95%</li>
-            <li>Less water 82%</li>
-            <li>Less energy 92%</li>
+            <li className='circle-1'><strong>95%</strong><p>Lower carbon footprint</p></li>
+            <li className='circle-2'><strong>82%</strong><p>Lower water</p></li>
+            <li className='circle-3'><strong>92%</strong><p>Lower energy</p></li>
           </ul>
 
         </div>
