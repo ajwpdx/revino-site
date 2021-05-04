@@ -3,12 +3,17 @@
 header {
 //   background-color: $color-light-sand;
   box-shadow: $box-shadow-main;
-  font-weight: bold;
+  font-weight: 600;
   position: fixed;
   top: 0;
   width: 100%;
   opacity: 1;
   background-color: white;
+
+  &:active{
+    opacity: 50%;
+
+  }
 
   &:after {
     box-shadow: inset 3px 3px 10px 0 #000000;

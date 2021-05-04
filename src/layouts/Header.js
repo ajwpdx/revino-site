@@ -1,11 +1,12 @@
-import React from "react"
+import React, {useState} from "react"
 import condensedLogo from "../images/revino-logo-condensed-dark.png" 
 import logo from "../images/revino-logo-white-main.png"
 
 const Header = () => {
+    const [headerOpacity, setHeaderOpacity] = useState(true)
 
     return (
-        <header>
+        <header >
             <nav>
                 <ul className="header-nav">
                     <li><a href="#how-it-works">How It Works</a></li>

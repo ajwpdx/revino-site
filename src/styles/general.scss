@@ -1,53 +1,61 @@
-body{
-    font-family: $font-content;
-    color: $color-night-sky-blue;
+body {
+  font-family: $font-content;
+  color: $color-night-sky-blue;
 }
 
-h2{
-    font-family: $font-title;
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
+h2 {
+  font-family: $font-title;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
-h3{
-    font-family: $font-title;
-    font-size: 2.5rem;
-    font-weight: bold;
+h3 {
+  font-family: $font-title;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-p, ul, ol, li{
-
-    font-size:1.8rem;
-
+p,
+ul,
+ol,
+li {
+  font-size: 1.8rem;
 }
 
-li{
-    margin-bottom: 5px;
-
+li {
+  margin-bottom: 5px;
 }
 
-button{
-    font-family: $font-title;
-    align-self: center;
-    padding: 15px;
-    font-size: 2.2rem;
-    font-weight: bold;
-    color: $color-night-sky-blue;
-    border: 2px solid $color-night-sky-blue;
-    background: transparent;
-    cursor: pointer;
+button {
+  font-family: $font-title;
+  align-self: center;
+  padding: 15px 50px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: $color-night-sky-blue;
+  border: 2px solid $color-night-sky-blue;
+  background: transparent;
+  cursor: pointer;
+
+  &:hover{
+      background-color: $color-night-sky-blue;
+      color: white;
+  }
 }
 
 a {
-    color: $color-night-sky-blue;
+  color: $color-night-sky-blue;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-sky;
     text-decoration: none;
+    cursor: pointer;
+  }
 }
 
-a:hover 
-{
-     color:$color-sky;
-     text-decoration:none; 
-     cursor:pointer;  
+strong{
+    font-family: $font-title;
 }
