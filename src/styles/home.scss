@@ -8,12 +8,12 @@ section {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
   max-width: 1000px;
   text-align: center;
 
   h2 {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
 
   p,
@@ -67,6 +67,11 @@ section {
       color: $color-dark-plum;
     }
   }
+  p {
+    strong{
+      font-size: 3rem;
+    }
+  }
 }
 
 #how-it-works {
@@ -101,8 +106,14 @@ section {
 }
 
 #why-reusable {
-  background-color: $color-dark-plum;
-  color: $color-light-sand;
+  background-color: $color-light-sand;
+  p{
+    strong{
+      color: $color-dark-plum
+    }
+  }
+  
+
 }
 
 #sustainability {

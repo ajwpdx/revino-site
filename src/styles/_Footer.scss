@@ -1,0 +1,38 @@
+footer {
+  color: white;
+  background: $color-night-sky-blue;
+
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    padding: 75px;
+    align-items: center;
+
+    .footer-logo {
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 30px;
+    text-transform: uppercase;
+      img {
+        padding: 20px;
+      }
+
+      p{
+          font-size: 1.5rem;
+      }
+    }
+
+    nav {
+      text-transform: uppercase;
+      margin: 0 30px;
+      
+      a {
+        font-size: 2.2rem;
+        color: white;
+      }
+    }
+  }
+}

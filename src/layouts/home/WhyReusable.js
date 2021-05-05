@@ -3,13 +3,16 @@ import React from 'react'
 const WhyReusable = (props) => {
 
     return (
-        <section id='why-section'>
+        <section id='why-reusable'>
             <div className='section-container'>
-                <p>We are building the refillable economy and ecosystem for glass bottles in the wine industry. Our purpose is to help develop a circular economy focused on the reuse and refilling of our glass bottles in Oregon wine communities. Why use a bottle once when it could be refilled 20 times</p>
-                <p><strong>Why use a bottle once when it could be refilled 20 times?</strong></p>
-                <button>Learn More</button>
+                <h2>Why Reusable Glass Bottles?</h2>
+                <ul>
+                    <li><p><strong>3.37 billion single use bottles</strong> are directed to landfills each year.</p></li>
+                    <li><p>Recycled glass is made up of more than <strong> 40% raw materials</strong></p></li>
+                    <li><p>The U.S produces over <strong>4.8 billion bottles</strong> each year</p></li>
+                </ul>
             </div>
-        </section>
+        </section >
     )
 
 }

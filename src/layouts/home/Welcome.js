@@ -9,7 +9,6 @@ const Welcome = () => {
             <div className='title-container'>
                 <h2>Welcome to</h2>
                 <img src={logo} alt='revino logo' />
-                
             </div>
         </section>
     )
