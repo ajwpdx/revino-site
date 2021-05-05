@@ -1,4 +1,8 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faInstagram, faFacebookF, faTwitter, faLinkedin,} from '@fortawesome/free-brands-svg-icons'
+
 import whiteLogoSmall from '../images/logo-condensed-white.png'
 
 const Footer = (props) => {
@@ -21,16 +25,14 @@ const Footer = (props) => {
                 </nav>
                 <div className='social-media-links'>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><FontAwesomeIcon icon={faInstagram} className='social-link'/></li>
+                        <li><FontAwesomeIcon icon={faFacebookF} className='social-link'/></li>
+                        <li><FontAwesomeIcon icon={faTwitter} className='social-link'/></li>
+                        <li><FontAwesomeIcon icon={faLinkedin} className='social-link'/></li>
+                        <li><FontAwesomeIcon icon={faEnvelope} className='social-link'/></li>
                     </ul>
                 </div>
             </div>
-
-
-
         </footer>
     )
 }

@@ -9,11 +9,11 @@ const Header = () => {
         <header >
             <nav>
                 <ul className="header-nav">
-                    <li><a href="#how-it-works">How It Works</a></li>
-                    <li><a href="">Who We Are</a></li>
+                    <li><a href="#how-it-works" className="nav-link">How It Works</a></li>
+                    <li><a href="" className="nav-link">Who We Are</a></li>
                     <li><a href=""><img src={condensedLogo} alt="small revino logo" className="header-logo"/></a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="" className="nav-link">Blog</a></li>
+                    <li><a href="" className="nav-link">Contact</a></li>
                 </ul>
             </nav>
         </header>

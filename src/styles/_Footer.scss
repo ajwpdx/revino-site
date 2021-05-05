@@ -15,23 +15,34 @@ footer {
       align-items: center;
       justify-content: center;
       margin: 0 30px;
-    text-transform: uppercase;
+      text-transform: uppercase;
       img {
         padding: 20px;
       }
 
-      p{
-          font-size: 1.5rem;
+      p {
+        font-size: 1.5rem;
       }
     }
 
     nav {
       text-transform: uppercase;
       margin: 0 30px;
-      
+
       a {
         font-size: 2.2rem;
         color: white;
+      }
+    }
+    .social-media-links {
+      ul{
+        display: flex;
+        flex-direction: row;
+  
+        .social-link{
+          font-size: 4rem;
+          margin: 10px;
+        }
       }
     }
   }
