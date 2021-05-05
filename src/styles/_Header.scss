@@ -9,6 +9,7 @@ header {
   width: 100%;
   opacity: 1;
   background-color: white;
+  
 
   &:active{
     opacity: 50%;
@@ -31,6 +32,14 @@ header {
     align-items: center;
     padding: 20px;
 
+    .header-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 80%;
+
+      
     .header-logo {
       width: auto;
       max-width: 150px;
@@ -57,13 +66,6 @@ header {
         border-bottom: 5px solid $color-sky;  
       }
     }
-
-    .header-nav {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: center;
-      width: 80%;
 
       li {
         font-size: 2.2rem;
