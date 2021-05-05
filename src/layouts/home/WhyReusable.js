@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WhySection = (props) => {
+const WhyReusable = (props) => {
 
     return (
         <section id='why-section'>
@@ -14,4 +14,4 @@ const WhySection = (props) => {
 
 }
 
-export default WhySection
+export default WhyReusable

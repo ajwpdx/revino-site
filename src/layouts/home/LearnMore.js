@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LearnMoreSection = (props) => {
+const LearnMore = (props) => {
 
     return (
         <section id='learn-more'>
@@ -14,4 +14,4 @@ const LearnMoreSection = (props) => {
 
 }
 
-export default LearnMoreSection
+export default LearnMore
