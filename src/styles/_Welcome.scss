@@ -1,0 +1,26 @@
+#welcome-to-revino {
+    background: url("../images/vineyard-splash-photo-01.png") no-repeat center
+      center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+  
+    .title-container {
+      width: 90%;
+      margin: 175px auto;
+  
+      h2 {
+        text-transform: uppercase;
+        padding-left: 3%;
+        padding-bottom: 30px;
+        font-size: 3.5rem;
+      }
+  
+      img {
+        width: 50%;
+      }
+    }
+  }

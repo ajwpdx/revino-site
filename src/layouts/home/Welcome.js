@@ -1,5 +1,6 @@
 import React from "react"
-import logo from "../../images/revino-logo-white-main.png"
+import logo from "../../images/revino-logo-white-01.png"
+
 
 
 const Welcome = () => {

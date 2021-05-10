@@ -1,9 +1,9 @@
 import React from 'react'
-import bottleFloating from "../../images/bottle-floating-01.png"
-import bottlesInCar from '../../images/bottles-in-car-01.png'
-import linedUpBottles from '../../images/lined-up-bottles-01.png'
-import recyclingBin from "../../images/recycling-bin-01.png"
-import arrow from "../../images/temp-arrow.png"
+import linedUpBottles from '../../images/colorblock-bottles.png'
+import recyclingBin from "../../images/colorblock-recycle-bin.png"
+import bottlesInCar from '../../images/colorblock-bottles-in-car.png'
+import bottleFloating from "../../images/colorblock-bottle-floating.png"
+import arrow from "../../images/hand-drawn-arrow.png"
 
 
 const HowItWorks = (props) => {

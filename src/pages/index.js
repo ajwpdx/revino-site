@@ -20,6 +20,7 @@ const IndexPage = () => {
       <LearnMore />
       <HowItWorks />
       <WhyReusable />
+
       <Sustainability />
       <Mission />
       <Footer/>

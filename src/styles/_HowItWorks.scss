@@ -1,0 +1,31 @@
+#how-it-works {
+    background: white;
+    ul {
+      display: flex;
+      flex-direction: row;
+  
+      .how-step {
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+  
+        img {
+          height: 150px;
+        }
+  
+        p {
+          font-size: 1.6rem;
+        }
+      }
+  
+      .how-arrow {
+        margin: -5px;
+        padding-top: 75px;
+        width: 75px;
+      }
+    }
+  }
+  

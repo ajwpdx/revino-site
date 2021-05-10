@@ -1,0 +1,40 @@
+
+#learn-more {
+    background-color: $color-dark-plum;
+    color: white;
+  
+    .section-container{
+        flex-direction: row;
+        width: 95%;
+        
+    }
+    .wine-bottle{
+        width: 150px;
+        align-self: flex-end;
+        margin-right: -20px;
+        margin-bottom: 0;
+    } 
+
+    .water-droplets{
+        width: 80px;
+        align-self: flex-start;
+        margin: 30px;
+        margin-right: 0;
+    }
+
+    button {
+      color: white;
+      border: 2px solid white;
+  
+      &:hover {
+        background-color: white;
+        color: $color-dark-plum;
+      }
+    }
+    p {
+      strong{
+        font-size: 3rem;
+      }
+    }
+  }
+  

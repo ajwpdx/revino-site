@@ -1,6 +1,5 @@
 import React, {useState} from "react"
-import condensedLogo from "../images/revino-logo-condensed-dark.png" 
-import logo from "../images/revino-logo-white-main.png"
+import condensedLogo from "../images/revino-logo-plum-02.png" 
 
 const Header = () => {
     const [headerOpacity, setHeaderOpacity] = useState(true)

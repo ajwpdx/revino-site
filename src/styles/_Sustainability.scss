@@ -1,0 +1,73 @@
+#sustainability {
+    background: $color-sky;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    // max-width: 100%;
+
+
+  
+    .section-container{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .content-container{
+        background: url("../images/repeating-bottles-transparent-01.png");
+        background-size: 1565px 270px;
+      //   background-attachment: fixed;
+        background-position: -35px 0px;
+        background-repeat: repeat;
+        width: 100%;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      max-width: 1200px;
+      margin: 0 auto;
+      justify-content: space-evenly;
+
+      
+  
+      li {
+        height: 250px;
+        width: 250px;
+        margin: 10px;
+        background-color: $color-night-sky-blue;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+  
+        &:nth-child(1) {
+          background-color: $color-light-sand;
+          color: $color-night-sky-blue;
+        }
+  
+        &:nth-child(2) {
+          background-color: $color-night-sky-blue;
+        }
+  
+        &:nth-child(3) {
+          background-color: $color-dark-plum;
+        }
+  
+        strong {
+          font-size: 5rem;
+          font-family: $font-title;
+          font-weight: 400;
+        }
+        p {
+          font-size: 2rem;
+          margin: none;
+        }
+      }
+    }
+  }

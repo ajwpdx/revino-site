@@ -1,5 +1,5 @@
 section {
-  padding: 50px;
+  padding: 50px 0;
 }
 
 .section-container {
@@ -8,8 +8,8 @@ section {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  max-width: 1200px;
   width: 80%;
-  max-width: 1000px;
   text-align: center;
 
   h2 {
@@ -27,149 +27,6 @@ section {
   max-width: 1200px;
 }
 
-#welcome-to-revino {
-  margin-top: 100px;
-  background: url("../images/willamette-winery-photo.jpg") no-repeat center
-    center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: white;
-
-  .title-container {
-    width: 90%;
-    margin: 175px auto;
-
-    h2 {
-      text-transform: uppercase;
-      padding-left: 3%;
-      padding-bottom: 30px;
-      font-size: 3.5rem;
-    }
-
-    img {
-      width: 50%;
-    }
-  }
-}
-
-#learn-more {
-  background-color: $color-dark-plum;
-  color: white;
-
-  button {
-    color: white;
-    border: 2px solid white;
-
-    &:hover {
-      background-color: white;
-      color: $color-dark-plum;
-    }
-  }
-  p {
-    strong{
-      font-size: 3rem;
-    }
-  }
-}
-
-#how-it-works {
-  background: white;
-  ul {
-    display: flex;
-    flex-direction: row;
-
-    .how-step {
-      margin: 5px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 250px;
-
-      img {
-        height: 150px;
-      }
-
-      p {
-        font-size: 1.6rem;
-      }
-    }
-
-    .how-arrow {
-      margin: -5px;
-      padding-top: 75px;
-      width: 75px;
-    }
-  }
-}
-
-#why-reusable {
-  background-color: $color-light-sand;
-  p{
-    strong{
-      color: $color-dark-plum
-    }
-  }
-  
-
-}
-
-#sustainability {
-  background: url("../images/revino-pattern-background-14.png") no-repeat center
-    center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: white;
-
-  ul {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: space-evenly;
-    
-
-    li {
-      height: 250px;
-      width: 250px;
-      // margin: 30px;
-      background-color: $color-night-sky-blue;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      border-radius: 50%;
-      justify-content: center;
-      align-items: center;
-
-      &:nth-child(1) {
-        background-color: $color-light-sand;
-        color: $color-night-sky-blue;
-      }
-
-      &:nth-child(2) {
-        background-color: $color-night-sky-blue;
-      }
-
-      &:nth-child(3) {
-        background-color: $color-dark-plum;
-      }
-
-      strong {
-        font-size: 5rem;
-        font-family: $font-title;
-        font-weight: 400;
-      }
-      p {
-        font-size: 2rem;
-        margin: none;
-      }
-    }
-  }
-}
 
 #contact {
   background-color: $color-night-sky-blue;

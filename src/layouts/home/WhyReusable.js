@@ -1,5 +1,7 @@
 import React from 'react'
 
+import transitionBottleImg from '../../images/floating-bottle-banner-02.png'
+
 const WhyReusable = (props) => {
 
     return (
@@ -11,6 +13,9 @@ const WhyReusable = (props) => {
                     <li><p>Recycled glass is made up of more than <strong> 40% raw materials</strong></p></li>
                     <li><p>The U.S produces over <strong>4.8 billion bottles</strong> each year</p></li>
                 </ul>
+            </div>
+            <div className='bottle-transition'>
+                <img src={transitionBottleImg} alt='floating bottle transition image'/>
             </div>
         </section >
     )
