@@ -5,14 +5,19 @@
   
     .section-container{
         flex-direction: row;
-        width: 95%;
-        
+        @media(max-width: 768px){
+          width: 85%;
+        }
     }
     .wine-bottle{
         width: 150px;
         align-self: flex-end;
         margin-right: -20px;
         margin-bottom: 0;
+
+        @media(max-width: 768px){
+          display: none;
+        }
     } 
 
     .water-droplets{
@@ -20,6 +25,9 @@
         align-self: flex-start;
         margin: 30px;
         margin-right: 0;
+        @media(max-width: 768px){
+          display: none;
+        }
     }
 
     button {

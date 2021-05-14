@@ -54,3 +54,11 @@ a {
 strong{
     font-family: $font-title;
 }
+
+.wavy-border{
+  background-image: url('../images/wavy-border.svg');
+  background-repeat: no-repeat;
+  img{
+    visibility: hidden ;
+  }
+}

@@ -11,9 +11,12 @@
       }
     }
     .bottle-transition{
-        margin-top: -75px;
-        margin-bottom: -50px;
+        margin-top: -8%;
+        margin-bottom: -100px;
         min-width: 1000px;
         z-index: -1;
+        img{
+          z-index: -1;
+        }
     }
   }

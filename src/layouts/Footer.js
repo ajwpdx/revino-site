@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faInstagram, faFacebookF, faTwitter, faLinkedin,} from '@fortawesome/free-brands-svg-icons'
 
-import whiteLogoSmall from '../images/logo-condensed-white.png'
+import whiteLogoSmall from '../images/revino-logo-white-02.png'
 
 const Footer = (props) => {
 
