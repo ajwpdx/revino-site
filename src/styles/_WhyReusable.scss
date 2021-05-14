@@ -2,21 +2,27 @@
     background-color: $color-light-sand;
     // background-image: url("../images/floating-bottle-banner-01.png");
     // background-position: bottom left;
-    // background-size: cover;
+    // background-size: 100%;
     // background-repeat: no-repeat;
-    padding-bottom: 0;
+    padding-bottom: 250px;
+    background-image: url("../images/floating-bottle-banner-01.png");
+    background-position: bottom left;
+    background-size: 900px;
+    background-repeat: no-repeat;
+  
+    @media(max-width: 500px){
+      background-size: 180%;
+    }
+    @media(min-width: 900px){
+      background-size: 100%;
+    }
+
     p{
       strong{
         color: $color-dark-plum
       }
     }
-    .bottle-transition{
-        margin-top: -8%;
-        margin-bottom: -100px;
-        min-width: 1000px;
-        z-index: -1;
-        img{
-          z-index: -1;
-        }
-    }
+    
+
+
   }

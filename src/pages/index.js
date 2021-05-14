@@ -10,6 +10,7 @@ import Mission from "../layouts/home/Mission"
 import Sustainability from "../layouts/home/Sustainability"
 import WhyReusable from "../layouts/home/WhyReusable"
 import Footer from "../layouts/Footer"
+
 import wavy from "../images/wavy-border.svg"
 
 // markup
@@ -19,15 +20,16 @@ const IndexPage = () => {
       <Header />
       <Welcome />
       <LearnMore />
-      <div className='wavy-border'>
+      <div className='wavy-border-transition'>
         {/* image added to maintain width and height ratios of background image, visibility hidden */}
-        <img src={wavy} alt='border'/>
+        <img src={wavy} alt='border' />
       </div>
       <HowItWorks />
       <WhyReusable />
+
       <Sustainability />
       <Mission />
-      <Footer/>
+      <Footer />
 
     </>
   )

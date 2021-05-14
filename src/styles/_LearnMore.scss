@@ -2,9 +2,10 @@
 #learn-more {
     background-color: $color-dark-plum;
     color: white;
-  
+    padding-bottom: 0;
     .section-container{
         flex-direction: row;
+        
         @media(max-width: 768px){
           width: 85%;
         }
