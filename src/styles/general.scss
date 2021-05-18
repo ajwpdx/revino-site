@@ -102,6 +102,10 @@ input, textarea{
   }
 }
 
+textarea{
+  height: 9rem;
+}
+
 label{
   color: $color-burnt-orange-tint;
   font-family: $font-content;

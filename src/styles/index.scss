@@ -10,10 +10,12 @@
 
 @import './reset.scss';
 @import './variables.scss';
+@import './transitions.scss';
 @import './general.scss';
 
 //component layouts
 @import './_Header.scss';
+@import './Sidebar';
 @import './_Footer.scss';
 @import './HowItWorks';
 @import './Sustainability';
