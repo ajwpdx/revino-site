@@ -25,3 +25,28 @@
     }
   }
 }
+
+
+.modal-dialog{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  max-width: 600px;
+  background-color: white;
+  padding: 40px;
+  box-shadow: $box-shadow-main;
+
+  h3{
+    padding-bottom: 40px;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+
+
+  }
+
+}

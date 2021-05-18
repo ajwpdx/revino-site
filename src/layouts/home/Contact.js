@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Contact = (props) => {
 
+    const [contactOpen, isContactOpen] = useState(false)
     return(
         <section id='contact'>
             <div className='section-container'>
@@ -10,6 +11,19 @@ const Contact = (props) => {
                 <button>Fill Out Form</button>
             </div>
 
+            <div className='modal-dialog'>
+                <h3>Stay in Touch!</h3>
+                <form>
+                <label for='name'>Your name</label>
+                <input id='name'/>
+                <label for='email'>Your email</label>
+                <input id='email'/>
+                <label for='message'>Your message (optional)</label>
+                <textarea id='message' type='textarea'/>
+                <button>Submit</button>
+                </form>
+                
+            </div>
         </section>
     )
 
