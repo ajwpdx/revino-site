@@ -1,0 +1,27 @@
+#contact {
+  background-color: $color-light-sand;
+  color: $color-night-sky-blue;
+
+  .section-container {
+
+    h3 {
+        font-weight: 500;
+        padding-bottom: 2rem;
+
+        strong {
+          color: $color-dark-plum;
+        }
+      }
+      
+    button {
+      color: $color-night-sky-blue;
+      border: 3px solid $color-night-sky-blue;
+
+
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

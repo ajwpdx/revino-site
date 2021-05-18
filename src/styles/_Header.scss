@@ -1,10 +1,9 @@
 @import "./variables.scss";
 
 header {
-//   background-color: $color-light-sand;
   box-shadow: $box-shadow-main;
   font-weight: 600;
-  // position: fixed;
+  position: fixed;
   top: 0;
   width: 100%;
   background-color: white;
@@ -44,7 +43,7 @@ header {
       flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
-      width: 38%;
+      width: 42%;
 
       @media(max-width: 768px){
        display: none;

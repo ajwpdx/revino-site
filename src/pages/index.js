@@ -12,6 +12,7 @@ import WhyReusable from "../layouts/home/WhyReusable"
 import Footer from "../layouts/Footer"
 
 import wavy from "../images/wavy-border.svg"
+import Contact from "../layouts/home/Contact"
 
 // markup
 const IndexPage = () => {
@@ -29,6 +30,7 @@ const IndexPage = () => {
 
       <Sustainability />
       <Mission />
+      <Contact/>
       <Footer />
 
     </>

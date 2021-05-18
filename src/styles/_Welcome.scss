@@ -8,10 +8,18 @@
     color: white;
     margin-left: -1px;
     margin-right: -1px;
+    margin-top: 90px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    @media(max-width: 625px){
+      margin-top: 75px;
+    }
   
+    @media(max-width: 450px){
+      margin-top: 50px;
+    }
     .title-container {
       width: 50%;
       min-width: 270px;
