@@ -1,71 +1,38 @@
 import * as React from "react"
 import "../styles/index.scss"
-import logo from "../images/revino-logo-white-main.png"
 
-import Header from "../components/Header"
+// import CMS from 'netlify-cms-app'
+// Initialize the CMS object
+// Now the registry is available via the CMS object.
+// CMS.registerPreviewTemplate('my-template', )
 
+import Header from "../layouts/Header"
+import Welcome from "../layouts/home/Welcome"
+import LearnMore from "../layouts/home/LearnMore"
+import HowItWorks from "../layouts/home/HowItWorks"
+import Mission from "../layouts/home/Mission"
+import Sustainability from "../layouts/home/Sustainability"
+import WhyReusable from "../layouts/home/WhyReusable"
+import Footer from "../layouts/Footer"
+
+
+import Contact from "../layouts/home/Contact"
+
+// CMS.init()
 // markup
 const IndexPage = () => {
   return (
     <>
-      {/* <Header /> */}
-      <section id="home">
-        <div className='section-container'>
-        <img className="logo" src={logo} alt="revino logo" />
-        <div className='subtitle-container'>
-        <p>Building the refillable glass bottle ecosystem for the wine industry.</p>
-        <button><a href="mailto:keenan@revinobottles.com">Get In Touch</a></button>
-        </div>
-      </div>
-      </section>
-      {/* <section id="welcome-to-revino">
-        <div className='section-container'>
-          <h2>Welcome to Revino!</h2>
-          <p>We are building the refillable economy and ecosystem for glass bottles in the wine industry. Our purpose is to help develop a circular economy focused on the reuse and refilling of our glass bottles in Oregon wine communities. Why use a bottle once when it could be refilled 20 times</p>
-        </div>
-      </section>
-      <section id="how-it-works">
-        <div className='section-container'>
-          <h2>How It Works</h2>
-          <ul>
-            <li>You buy Revino bottles and fill them with your world renowned Oregon wine!</li>
-            <li>Consumers enjoy your wine.</li>
-            <li>Consumers can use Oregon's statewide recycling service, OBRC, to drop off their refillable containers.</li>
-            <li>Waste management picks up our fully recyclable crates from participating collection locations.</li>
-            <li>We work some magic with our proprietary washing system to inspect and wash your bottles to be cleaner than new.</li>
-          </ul>
-        </div>
-      </section>
-      <section id="why-reuse">
-        <div className='section-container'>
-          <h2>Why Reuse Glass Bottles?</h2>
-          <ul>
-            <li>3.37 billion single use bottles are directed to landfills each year.</li>
-            <li>Recycled glass is made up of more than 40% raw materials</li>
-            <li>The U.S produces over 4.8 billion bottles each year</li>
-          </ul>
-        </div>
-      </section>
-      <section id='sustainability'>
-        <div className="section-container">
-          <h2>Sustainability</h2>
-          <ul>
-            <li>Lower carbon footprint 95%</li>
-            <li>Less water 82%</li>
-            <li>Less energy 92%</li>
-          </ul>
+      <Header />
+      <Welcome />
+      <LearnMore />
 
-        </div>
-      </section>
-      <section id='contact'>
-        <div className="section-container">
-
-        <h2>The refillable bottle economy is here to stay, how are you going to play a role? </h2>
-        <p>Partner with us for the refillable movement</p>
-        <button>Sign Up</button>
-        </div>
-
-      </section> */}
+      <HowItWorks />
+      <WhyReusable />
+      <Sustainability />
+      <Mission />
+      <Contact/>
+      <Footer />
 
     </>
   )

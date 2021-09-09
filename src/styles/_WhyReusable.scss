@@ -1,0 +1,28 @@
+#why-reusable {
+    background-color: $color-light-sand;
+    // background-image: url("../images/floating-bottle-banner-01.png");
+    // background-position: bottom left;
+    // background-size: 100%;
+    // background-repeat: no-repeat;
+    padding-bottom: 250px;
+    background-image: url("../images/floating-bottle-banner-01.png");
+    background-position: bottom left;
+    background-size: 900px;
+    background-repeat: no-repeat;
+  
+    @media(max-width: 500px){
+      background-size: 180%;
+    }
+    @media(min-width: 900px){
+      background-size: 100%;
+    }
+
+    p{
+      strong{
+        color: $color-dark-plum
+      }
+    }
+    
+
+
+  }

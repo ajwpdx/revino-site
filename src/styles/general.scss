@@ -1,45 +1,116 @@
-body{
-    font-family: $font-content;
-    color: $color-night-sky-blue;
+body {
+  font-family: $font-content;
+  color: $color-night-sky-blue;
 }
 
-h2{
-    font-family: $font-title;
+h2 {
+  font-family: $font-title;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+  @media(max-width: 768px){
+    font-size: 4rem;
+  }
+
+  @media(max-width: 500px){
     font-size: 3.5rem;
-
-    font-weight: bold;
+  }
 }
 
-h3{
+h3 {
+  font-family: $font-title;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+p,
+ul,
+ol,
+li {
+  font-size: 1.8rem;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+button {
+  font-family: $font-title;
+  align-self: center;
+  padding: 15px 50px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: $color-night-sky-blue;
+  border: 2px solid $color-night-sky-blue;
+  background: transparent;
+  cursor: pointer;
+
+  &:hover{
+      background-color: $color-night-sky-blue;
+      color: white;
+  }
+}
+
+a {
+  color: $color-night-sky-blue;
+  text-decoration: none;
+
+}
+
+strong{
     font-family: $font-title;
+}
+
+
+section {
+  padding: 50px 0;
+
+  @media(max-width: 768px){
+    padding: 50px;
+  }
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1250px;
+  width: 95%;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 50px;
+  }
+
+  p,
+  button {
+    margin: 25px 0px;
     font-size: 2.5rem;
-    
-    font-weight: bold;
+  }
 }
 
-p, ul, ol, li{
-    font-size:1.8rem;
+input, textarea{
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+  padding: 10px 0;
+  font-family: $font-content;
+  resize: none;
 
+  &:focus{
+    outline: none;
+  }
 }
 
-li{
-    margin-bottom: 5px;
-
+textarea{
+  height: 9rem;
 }
 
-button{
-    border: 5px solid white;
-    color: white;
-    font-weight: bold;
-    background-color: none;
-    padding: 12px;
-    font-size: 2.2rem;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-
-
+label{
+  color: $color-burnt-orange-tint;
+  font-family: $font-content;
 }
