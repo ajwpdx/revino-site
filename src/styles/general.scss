@@ -39,8 +39,8 @@ li {
 button {
   font-family: $font-title;
   align-self: center;
-  padding: 15px 50px;
-  font-size: 2.5rem;
+  padding: 1.5rem 5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   color: $color-night-sky-blue;
   border: 2px solid $color-night-sky-blue;
@@ -50,6 +50,8 @@ button {
   &:hover{
       background-color: $color-night-sky-blue;
       color: white;
+      font-size: 2.7rem;
+      padding: 1.3rem 4.5rem;
   }
 }
 
@@ -86,8 +88,7 @@ section {
     margin-bottom: 50px;
   }
 
-  p,
-  button {
+  p {
     margin: 25px 0px;
     font-size: 2.5rem;
   }
