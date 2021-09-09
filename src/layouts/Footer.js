@@ -25,11 +25,11 @@ const Footer = (props) => {
                 </nav>
                 <div className='social-media-links'>
                     <ul>
-                        <li><FontAwesomeIcon icon={faInstagram} className='social-link'/></li>
-                        <li><FontAwesomeIcon icon={faFacebookF} className='social-link'/></li>
+                        <li><a href = "https://www.instagram.com/revinobottles/" ><FontAwesomeIcon icon={faInstagram} className='social-link'/></a></li>
+                        <li><a href = "https://www.facebook.com/RevinoBottles" ><FontAwesomeIcon icon={faFacebookF} className='social-link'/></a></li>
                         <li><FontAwesomeIcon icon={faTwitter} className='social-link'/></li>
                         <li><FontAwesomeIcon icon={faLinkedin} className='social-link'/></li>
-                        <li><FontAwesomeIcon icon={faEnvelope} className='social-link'/></li>
+                        <li><a href = "mailto:keenan@revinobottles" ><FontAwesomeIcon icon={faEnvelope} className='social-link'/></a></li>
                     </ul>
                 </div>
             </div>

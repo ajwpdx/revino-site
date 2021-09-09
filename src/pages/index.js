@@ -1,6 +1,10 @@
 import * as React from "react"
 import "../styles/index.scss"
 
+// import CMS from 'netlify-cms-app'
+// Initialize the CMS object
+// Now the registry is available via the CMS object.
+// CMS.registerPreviewTemplate('my-template', )
 
 import Header from "../layouts/Header"
 import Welcome from "../layouts/home/Welcome"
@@ -14,6 +18,7 @@ import Footer from "../layouts/Footer"
 
 import Contact from "../layouts/home/Contact"
 
+// CMS.init()
 // markup
 const IndexPage = () => {
   return (
