@@ -1,8 +1,35 @@
 #contact {
   background-color: $color-light-gray;
   color: $color-night-sky-blue;
+  position: relative;
 
+      @media (max-width: 1100px) {
+      padding-bottom: 100px;
+    }
+    @media (max-width: 1000px) {
+      padding-bottom: 150px;
+    }
+
+    @media (max-width: 900px){
+      padding-bottom: 200px;
+    }
+  
+  .smiling-bottles{
+    bottom: 0;
+    right: 100px;
+    width: 300px;
+    position: absolute;
+
+    @media (max-width: 1100px) {
+      right: 50px;
+    }
+    @media (max-width: 900px){
+      right: 20px;
+    }
+  }
   .section-container {
+    position: relative;
+
 
     h3 {
         font-weight: 500;
@@ -17,7 +44,7 @@
     button {
       color: $color-night-sky-blue;
       border: 3px solid $color-night-sky-blue;
-
+      background-color: $color-light-gray;
 
 
       &:hover {
@@ -68,6 +95,7 @@
       align-self: flex-start;
       font-size: 1.5rem;
       padding: 5px 25px;
+
     }
   }
 
