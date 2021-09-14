@@ -22,11 +22,11 @@ import Contact from "../layouts/home/Contact"
 // markup
 const IndexPage = () => {
 
-  const [isSidebarVisible, setSideBarVisible] = useState(false)
+
 
   return (
     <>
-      <Header isSidebarVisible={isSidebarVisible} setSideBarVisible={setSideBarVisible}/>
+      <Header />
       <Welcome />
       <LearnMore />
       <HowItWorks />
