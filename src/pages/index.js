@@ -26,7 +26,6 @@ const IndexPage = () => {
       <Header />
       <Welcome />
       <LearnMore />
-
       <HowItWorks />
       <WhyReusable />
       <Sustainability />

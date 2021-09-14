@@ -6,7 +6,6 @@
   background-size: cover;
   color: white;
   width: 100%;
-  // max-width: 100%;
 
   .section-container {
     width: 100%;
@@ -70,7 +69,7 @@
       }
 
       &:nth-child(3) {
-        background-color: $color-dark-plum;
+        background-color: $color-burnt-orange-tint;
       }
 
       strong {
@@ -80,7 +79,7 @@
       }
       p {
         font-size: 2rem;
-        margin: none;
+        margin: .5rem;
       }
     }
   }

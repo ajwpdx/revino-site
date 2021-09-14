@@ -4,16 +4,18 @@
     // background-position: bottom left;
     // background-size: 100%;
     // background-repeat: no-repeat;
-    padding-bottom: 250px;
-    background-image: url("../images/floating-bottle-banner-01.png");
+    padding-bottom: 300px;
+    background-image: url("../images/floating-beer-banner.png");
     background-position: bottom left;
     background-size: 900px;
     background-repeat: no-repeat;
   
     @media(max-width: 500px){
       background-size: 180%;
+      padding-bottom: 150px;
     }
     @media(min-width: 900px){
+      padding-bottom: 200px;
       background-size: 100%;
     }
 

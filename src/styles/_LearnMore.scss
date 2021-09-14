@@ -1,58 +1,57 @@
-
 #learn-more {
-    background-color: $color-dark-plum;
-    color: white;
-    padding-bottom: 0;
-    .section-container{
-        flex-direction: row;
-        
-        @media(max-width: 768px){
-          width: 85%;
-        }
-    }
-    .wine-bottle{
-        width: 150px;
-        align-self: flex-end;
-        margin-right: -20px;
-        margin-bottom: 0;
-
-        @media(max-width: 768px){
-          display: none;
-        }
-    } 
-
-    .water-droplets{
-        width: 80px;
-        align-self: flex-start;
-        margin: 30px;
-        margin-right: 0;
-        @media(max-width: 768px){
-          display: none;
-        }
-    }
-
-    button {
-      color: white;
-      border: 2px solid white;
+  background-color: $color-warm-brown;
+  color: white;
+  padding-bottom: 0;
   
-      &:hover {
-        background-color: white;
-        color: $color-dark-plum;
-      }
+  .section-container {
+    display: inline-block center;
+    position: relative;
+    text-align: center;
+
+    @media (max-width: 768px) {
+      width: 85%;
     }
-    p {
-      strong{
-        font-size: 3rem;
-      }
+    .content-container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+  }
+  .floating-bottles {
+    position: absolute;
+    top: 150px;
+    left: -20px;
+    width: 320px;
+    align-self: flex-end;
+    margin-right: -20px;
+    margin-bottom: 0;
+
+    @media (max-width: 768px) {
+      display: none;
     }
   }
 
-.wavy-border-transition{
-  background-image: url('../images/wavy-border.svg');
-  background-repeat: no-repeat;
-  img{
-    visibility: hidden ;
+  button {
+    color: white;
+    border: 2px solid white;
+    position: relative;
+
+    &:hover {
+      background-color: white;
+      color: $color-dark-plum;
+      font-size: 3rem;
+    }
+  }
+  p {
+    strong {
+      font-size: 3rem;
+    }
   }
 }
 
-
+.wavy-border-transition {
+  background-image: url("../images/wavy-border.svg");
+  background-repeat: no-repeat;
+  img {
+    visibility: hidden;
+  }
+}

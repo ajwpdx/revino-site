@@ -5,6 +5,8 @@ import { faInstagram, faFacebookF, faTwitter, faLinkedin,} from '@fortawesome/fr
 
 import whiteLogoSmall from '../images/revino-logo-white-02.png'
 
+const currentDate = new Date
+
 const Footer = (props) => {
 
     return (
@@ -13,7 +15,7 @@ const Footer = (props) => {
 
                 <div className='footer-logo'>
                     <img src={whiteLogoSmall} alt="condensed Revnio logo" />
-                    <p>Copyright Revino LLC 2021</p>
+                    <p>Copyright Revino LLC {currentDate.getFullYear()}</p>
                 </div>
                 <nav>
                     <ul>

@@ -1,8 +1,24 @@
 #mission {
     h2 {
-      color: $color-dark-plum;
+      color: $color-night-sky-blue;
     }
     img {
-      width: 250px;
+      width: 200px;
+      margin-top: 25px;
+    }
+
+    .section-container{
+      max-width: 950px;
+      margin-bottom: -50px;
+    }
+
+  }
+
+  .wavy-border-transition-white{
+    background-image: url('../images/wavy-border-bottom.svg');
+    background-repeat: no-repeat;
+    margin-bottom: -5px;
+    img{
+      visibility: hidden ;
     }
   }

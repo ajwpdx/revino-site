@@ -39,17 +39,22 @@ li {
 button {
   font-family: $font-title;
   align-self: center;
-  padding: 15px 50px;
+  padding: 15px 80px;
   font-size: 2.5rem;
   font-weight: bold;
   color: $color-night-sky-blue;
   border: 2px solid $color-night-sky-blue;
   background: transparent;
   cursor: pointer;
+  max-width: 400px;
+  height: 75px;
+  transition: all .3s ease;
 
   &:hover{
+      transition: all .6s ease;
       background-color: $color-night-sky-blue;
       color: white;
+      padding: 10px 60px;
   }
 }
 
@@ -82,10 +87,6 @@ section {
   width: 95%;
   text-align: center;
 
-  h2 {
-    margin-bottom: 50px;
-  }
-
   p,
   button {
     margin: 25px 0px;
@@ -113,4 +114,8 @@ textarea{
 label{
   color: $color-burnt-orange-tint;
   font-family: $font-content;
+}
+
+.hidden{
+  display: none;
 }
