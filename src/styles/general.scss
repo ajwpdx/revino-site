@@ -39,7 +39,7 @@ li {
 button {
   font-family: $font-title;
   align-self: center;
-  padding: 15px 80px;
+  // padding: 15px 80px;
   font-size: 2.5rem;
   font-weight: bold;
   color: $color-night-sky-blue;
@@ -48,13 +48,13 @@ button {
   cursor: pointer;
   max-width: 400px;
   height: 75px;
+  width: 290px;
   transition: all .3s ease;
 
   &:hover{
       transition: all .6s ease;
       background-color: $color-night-sky-blue;
       color: white;
-      padding: 10px 60px;
   }
 }
 

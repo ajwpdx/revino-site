@@ -20,7 +20,34 @@ header {
     width: 100%;
   }
 
+  .hamburger-bars{
+    display: none;
+    font-size: 3rem;
+    position: absolute;
+    right: 36px;
+    top: 36px;
+
+    @media (max-width: 768px) {
+      display: inline-block;
+    }
+  }
+
+  .header-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+    .header-logo {
+      width: 100px;
+      top: 0px;
+    }
+  }
+
   nav {
+    position: absolute;
+    right:15px;
+    top: 15px;
     font-family: $font-title;
     text-transform: uppercase;
     display: flex;
@@ -28,11 +55,10 @@ header {
     justify-content: center;
     align-items: center;
 
-    .header-logo {
-      position: fixed;
-      width: 100px;
-      top: 0px;
+    @media (max-width: 768px) {
+      display: none;
     }
+
 
     .nav-link {
       margin: 25px;

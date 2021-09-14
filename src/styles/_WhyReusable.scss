@@ -1,4 +1,7 @@
 #why-reusable {
+  h2{
+    margin: 20px;
+  }
     background-color: $color-light-sand;
     // background-image: url("../images/floating-bottle-banner-01.png");
     // background-position: bottom left;
@@ -8,6 +11,7 @@
     background-position: bottom left;
     background-size: 900px;
     background-repeat: no-repeat;
+    margin-bottom: -1px;
   
     @media(max-width: 500px){
       background-size: 180%;

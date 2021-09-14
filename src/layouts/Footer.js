@@ -20,17 +20,17 @@ const Footer = (props) => {
                 <nav>
                     <ul>
                     <li><a href="#how-it-works">How It Works</a></li>
-                    <li><a href="">Who We Are</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+                    {/* <li><a href="">Who We Are</a></li> */}
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="mailto:keenan@revinobottles">Contact</a></li>
                     </ul>
                 </nav>
                 <div className='social-media-links'>
                     <ul>
                         <li><a href = "https://www.instagram.com/revinobottles/" ><FontAwesomeIcon icon={faInstagram} className='social-link'/></a></li>
                         <li><a href = "https://www.facebook.com/RevinoBottles" ><FontAwesomeIcon icon={faFacebookF} className='social-link'/></a></li>
-                        <li><FontAwesomeIcon icon={faTwitter} className='social-link'/></li>
-                        <li><FontAwesomeIcon icon={faLinkedin} className='social-link'/></li>
+                        {/* <li><FontAwesomeIcon icon={faTwitter} className='social-link'/></li>
+                        <li><FontAwesomeIcon icon={faLinkedin} className='social-link'/></li> */}
                         <li><a href = "mailto:keenan@revinobottles" ><FontAwesomeIcon icon={faEnvelope} className='social-link'/></a></li>
                     </ul>
                 </div>

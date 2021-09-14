@@ -6,7 +6,7 @@ const Blog = () => {
     return (
       <>
         <Header />
-        <section id="how-it-works">
+        <section id="blog">
           <h2>Blog</h2>
         </section>
       </>

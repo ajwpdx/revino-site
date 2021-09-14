@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useState } from "react"
 import "../styles/index.scss"
 
 // import CMS from 'netlify-cms-app'
@@ -21,9 +21,12 @@ import Contact from "../layouts/home/Contact"
 // CMS.init()
 // markup
 const IndexPage = () => {
+
+  const [isSidebarVisible, setSideBarVisible] = useState(false)
+
   return (
     <>
-      <Header />
+      <Header isSidebarVisible={isSidebarVisible} setSideBarVisible={setSideBarVisible}/>
       <Welcome />
       <LearnMore />
       <HowItWorks />
