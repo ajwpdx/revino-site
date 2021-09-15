@@ -8,10 +8,10 @@
   color: white;
   margin-left: -1px;
   margin-right: -1px;
-  margin-top: 90px;
+  margin-top: 50px;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
 
   @media (max-width: 625px) {
     margin-top: 75px;
@@ -21,9 +21,9 @@
     margin-top: 50px;
   }
   .welcome-msg {
-    width: 40%;
+    width: 50%;
     min-width: 270px;
-    margin: 5%;
+    margin: 200px 5% 50px;
 
 
     h2 {
@@ -40,7 +40,7 @@
   .location-msg{
     width: 25%;
     min-width: 200px;
-    margin: 10%;
+    margin: 0 10% 75px 5%;
 
     @media(max-width: 650px){
       display: none;
