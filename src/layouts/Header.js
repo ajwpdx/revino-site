@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars} from '@fortawesome/free-solid-svg-icons'
 import Sidebar from "./Sidebar"
 
+
+
 const headerLinks = ["HOW IT WORKS", "WHO WE ARE", "BLOG", "CONTACT"]
 
 const Header = (props) => {
@@ -11,7 +13,7 @@ const Header = (props) => {
     let sidebar
 
     if(isSidebarVisible){
-        sidebar = <Sidebar/>
+        sidebar = <Sidebar isSidebarVisible={isSidebarVisible}/>
     }
 
     return (
