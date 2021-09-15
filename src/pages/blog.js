@@ -7,7 +7,7 @@ const Blog = () => {
       <>
         <Header />
         <section id="blog">
-          <h2>Blog</h2>
+          <h2>Blog Site Coming Soon</h2>
         </section>
       </>
     )
