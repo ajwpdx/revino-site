@@ -20,19 +20,6 @@
       margin: 0 auto;
     }
   }
-  .floating-bottles {
-    position: relative;
-    top: -200px;
-    left: 10px;
-    width: 320px;
-    align-self: flex-end;
-    margin-bottom: -200px;
-
-
-    @media (max-width: 800px) {
-      display: none;
-    }
-  }
 
   button {
     color: white;

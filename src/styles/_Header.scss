@@ -16,7 +16,7 @@ header {
     width: 100%;
   }
 
-  .hamburger-bars{
+  .hamburger-bars {
     display: none;
     font-size: 3rem;
     position: absolute;
@@ -28,12 +28,12 @@ header {
     }
   }
 
-  .header-container{
+  .header-container {
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
-    
+
     .header-logo {
       width: 100px;
       top: 0px;
@@ -43,7 +43,7 @@ header {
   .nav {
     display: flex;
     flex-direction: row;
-    
+
     font-family: $font-title;
     text-transform: uppercase;
     width: 300px;
@@ -56,45 +56,47 @@ header {
       font-size: 2rem;
       padding: 50px;
 
+      span{
+
+        transition: opacity 600ms, transform 600ms;
+        
+        &:hover {
+          display: relative;
+          border-bottom: 5px solid $color-sky;
+          padding-bottom: 5px;
+          transform: scale(1);
+        }
+
+        &:focus{
+          display: relative;
+          border-bottom: 5px solid $color-sky;
+          padding-bottom: 5px;
+          transform: scale(1);
+        }
+
+      }
+
       @media (max-width: 768px) {
         font-size: 1.5rem;
       }
       @media (max-width: 400px) {
         font-size: 1.2rem;
       }
-
-      &:hover {
-        text-decoration: none;
-        cursor: pointer;
-      }
-
-      &:hover::after {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 0;
-        left: 0;
-        bottom: -7px; /*Change this to increase/decrease distance*/
-        border-bottom: 5px solid $color-sky;
-      }
     }
 
-    .right{
-
+    .right {
       padding-left: 50px;
     }
 
-    .left{
+    .left {
       padding-right: 50px;
     }
   }
 
-  .nav-left{
+  .nav-left {
     justify-content: flex-end;
-    
   }
-  .nav-right{
+  .nav-right {
     justify-content: flex-start;
-    
   }
 }

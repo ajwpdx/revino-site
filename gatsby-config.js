@@ -12,7 +12,7 @@ module.exports = {
       background_color: '#1F2332',
       theme_color: "#1F2332",
       display: "minimal-ui",
-      icon: "src/images/favicon.png"
+      icon: "src/images/revino-logo-blue.png"
     }
   }
   ],
