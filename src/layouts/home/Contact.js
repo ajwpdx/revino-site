@@ -8,7 +8,6 @@ const Contact = (props) => {
 
     const openContactDialog = (evt) =>{
         setContactOpen(true)
-        console.log(contactOpen)
     }
 
     return(
@@ -19,7 +18,6 @@ const Contact = (props) => {
                 <button onClick={openContactDialog}>Fill Out Form</button>
             </div>
             {contactOpen && <ContactDialog setContactOpen={setContactOpen}/>}
-            <img src={beerBottles} alt="bottles smiling" className='smiling-bottles'/>
         </section>
     )
 
