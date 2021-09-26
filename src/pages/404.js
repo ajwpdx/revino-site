@@ -1,11 +1,12 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import "../styles/index.scss"
+import notFoundImage from "../images/colorblock-bottles-in-car.png"
 
 // styles
 const pageStyles = {
   color: "#232129",
   padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
   marginTop: 0,
@@ -15,6 +16,7 @@ const headingStyles = {
 
 const paragraphStyles = {
   marginBottom: 48,
+  marginTop: 48,
 }
 const codeStyles = {
   color: "#8A6534",
@@ -24,18 +26,19 @@ const codeStyles = {
   borderRadius: 4,
 }
 
+const imgStyle = {
+  width: 250,
+}
+
 // markup
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
+      <title>404: Page Not Found</title>
+      <h1 style={headingStyles}>404: Page Not Found</h1>
+      <img style={imgStyle} src={notFoundImage} alt="not found image"/>
       <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
+        Sorry we couldn’t find what you were looking for.
         <br />
         {process.env.NODE_ENV === "development" ? (
           <>
@@ -45,7 +48,7 @@ const NotFoundPage = () => {
           </>
         ) : null}
         <br />
-        <Link to="/">Go home</Link>.
+        <Link to="/">Go to Homepage</Link>.
       </p>
     </main>
   )
