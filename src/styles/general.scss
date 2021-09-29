@@ -1,6 +1,32 @@
+html {
+  --top-spacing: 120px;
+  // scroll-padding-top: var(--top-spacing);
+}
+
 body {
   font-family: $font-content;
   color: $color-night-sky-blue;
+  // margin: var(--top-spacing) auto;
+
+}
+header{
+  height: 12vh;
+  min-height: 120px;
+}
+
+main{
+  margin-top: max(12vh, 120px);
+  min-height: 68vh;
+}
+
+footer{
+  height: 20vh;
+}
+
+.page-body{
+  display: flex;
+  flex-direction: column;
+
 }
 
 h2 {
@@ -23,6 +49,11 @@ h3 {
   font-family: $font-title;
   font-size: 2.5rem;
   font-weight: bold;
+}
+
+ul,
+ol {
+  list-style: none;
 }
 
 p,

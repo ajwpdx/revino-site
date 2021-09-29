@@ -2,6 +2,15 @@ footer {
   color: white;
   background: $color-night-sky-blue;
 
+  @media (max-width: 768px) {
+    min-height: 350px;
+    
+  }
+
+  @media (max-width: 450px) {
+    min-height: 250px;
+  }
+
   .footer-container {
     display: flex;
     flex-direction: row;

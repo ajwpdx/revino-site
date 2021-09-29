@@ -1,0 +1,29 @@
+.blog-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items: center;
+
+    article{
+
+        width: 90%;
+    }
+    
+    .blog-post-nav{
+        width: 90%;
+        padding-bottom: 25px;
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            li{
+                padding: 5px;
+            }
+
+        }
+    }
+}
+

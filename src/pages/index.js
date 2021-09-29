@@ -25,18 +25,20 @@ const IndexPage = () => {
 
 
   return (
-    <>
+    <div className='.page-body'>
       <Header />
-      <Welcome />
-      <LearnMore />
-      <HowItWorks />
-      <WhyReusable />
-      <Sustainability />
-      <Mission />
-      <Contact/>
+      <main>
+        <Welcome />
+        <LearnMore />
+        <HowItWorks />
+        <WhyReusable />
+        <Sustainability />
+        <Mission />
+        <Contact />
+      </main>
       <Footer />
 
-    </>
+    </div>
   )
 }
 
