@@ -18,6 +18,7 @@ collections:
     editor:
       preview: false
     fields:
+      - { label: 'Title Image', name: title-image, widget: 'image'}
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
