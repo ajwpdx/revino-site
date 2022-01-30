@@ -26,7 +26,7 @@ const IndexPage = () => {
 
   return (
     <div className='.page-body'>
-      {/* <Header /> */}
+      <Header />
       <main>
         <Welcome />
         <LearnMore />
