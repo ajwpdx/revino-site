@@ -22,7 +22,7 @@ const Footer = (props) => {
                     <ul>
                     <li><a href="#how-it-works">How It Works</a></li>
                     {/* <li><a href="">Who We Are</a></li> */}
-                    <li><a href="/blog">Blog</a></li>
+                    {/* <li><a href="/blog">Blog</a></li> */}
                     <li><a href="mailto:keenan@revinobottles">Contact</a></li>
                     </ul>
                 </nav>
