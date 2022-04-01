@@ -1,12 +1,12 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-import '../../styles/index.scss'
-import logo from "../../images/revino-logo-blue.png"
+import '../styles/index.scss'
+import logo from "../images/revino-logo-blue.png"
 
-import Layout from "../../components/layout"
-import Seo from "../../components/seo"
-import Header from '../../layouts/Header'
-import Footer from '../../layouts/Footer'
+import Layout from "../components/layout"
+import Seo from "../components/seo"
+import Header from '../layouts/Header'
+import Footer from '../layouts/Footer'
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -32,11 +32,14 @@ const BlogIndex = ({ data, location }) => {
       <Header />
       <Layout location={location} title={siteTitle}>
         <Seo title="All posts" />
+        {/* <iframe src="https://anchor.fm/revinobottles/embed/episodes/Rediscovering-Sustainability-e17o1td" height="102px" width="400px" frameborder="0" scrolling="no"></iframe> */}
+
         <ol className='blog-list'>
           {posts.map(post => {
             const title = post.frontmatter.title || post.fields.slug
 
             return (
+                
               <li className="blog-list-item" key={post.fields.slug}>
                 <Link to={post.fields.slug} itemProp="url">
                   <div className='blog-item-img'>

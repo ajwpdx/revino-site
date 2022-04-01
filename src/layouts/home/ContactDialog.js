@@ -20,7 +20,7 @@ const ContactDialog = (props) => {
     return (
         <div className='modal-dialog'>
             <FontAwesomeIcon icon={faTimes} className='cancel-x' onClick={closeDialog} />
-            <form action="https://formsubmit.co/alexjwilliams1@gmail.com" method="POST">
+            <form action="https://formsubmit.co/keenan@revinobottles.com" method="POST">
                 <h3>Stay in Touch!</h3>
                 <label for='name'>Your name</label>
                 <input type="text" id='name' name="name" required />
