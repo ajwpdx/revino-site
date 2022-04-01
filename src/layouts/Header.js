@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import condensedLogo from "../images/revino-logo-blue.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { AppBar, ToolBar } from "@mui/material"
 // import Sidebar from "./Sidebar"
 import { Link } from "gatsby"
 
@@ -11,8 +12,8 @@ const headerLinks = ["HOW IT WORKS", "WHO WE ARE", "BLOG", "CONTACT"]
 
 const Header = (props) => {
     const [isSidebarVisible, setSideBarVisible] = useState(false)
-    const hamburgerMenu = <FontAwesomeIcon onClick={() => setSideBarVisible(true)} icon={faBars} className='hamburger-bars' />
-    const cancelMenu = <FontAwesomeIcon onClick={() => setSideBarVisible(false)} icon={faTimes} className='hamburger-bars' />
+    // const hamburgerMenu = <FontAwesomeIcon onClick={() => setSideBarVisible(true)} icon={faBars} className='hamburger-bars' />
+    // const cancelMenu = <FontAwesomeIcon onClick={() => setSideBarVisible(false)} icon={faTimes} className='hamburger-bars' />
     let sidebar
 
     if (isSidebarVisible) {
@@ -29,11 +30,11 @@ const Header = (props) => {
                 {/* <nav style={{ visibility: isSidebarVisible ? "hidden" : "" }} className="nav-right nav">
                     <Link to="/blog" className="nav-link right"><span>Blog</span></Link>
                 </nav> */}
-                {!isSidebarVisible && hamburgerMenu}
-                {isSidebarVisible && cancelMenu}
+                {/* {!isSidebarVisible && hamburgerMenu}
+                {isSidebarVisible && cancelMenu} */}
 
             </div>
-            {/* {sidebar} */}
+
         </header>
     )
 
