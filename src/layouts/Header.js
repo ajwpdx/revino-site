@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from "react"
 import condensedLogo from "../images/revino-logo-blue.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
-import { AppBar, ToolBar } from "@mui/material"
-// import Sidebar from "./Sidebar"
 import { Link } from "gatsby"
 
 

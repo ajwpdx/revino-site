@@ -1,5 +1,5 @@
 ---
-title-image: colorblock-illo2-01.png
+titleImage: colorblock-illo2-01.png
 title: "Why Sustainability "
 date: 2022-04-02T06:15:24.005Z
 description: The term sustainable development, its definition was formalized for

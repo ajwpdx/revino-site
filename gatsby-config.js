@@ -111,6 +111,7 @@ module.exports = {
                     }
                     frontmatter {
                       title
+                      titleImage
                       date
                     }
                   }
