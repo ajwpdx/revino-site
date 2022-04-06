@@ -1,7 +1,3 @@
-html {
-  --top-spacing: 120px;
-  // scroll-padding-top: var(--top-spacing);
-}
 
 body {
   font-family: $font-content;
@@ -9,13 +5,8 @@ body {
   // margin: var(--top-spacing) auto;
 
 }
-header{
-  height: 12vh;
-  min-height: 120px;
-}
 
 main{
-  margin-top: max(12vh, 120px);
   min-height: 68vh;
 }
 
@@ -91,6 +82,7 @@ button {
 a {
   color: $color-night-sky-blue;
   text-decoration: none;
+  cursor: pointer;
 
 }
 

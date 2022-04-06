@@ -1,12 +1,22 @@
 import React, { useState, useEffect } from "react"
 import condensedLogo from "../images/revino-logo-blue.png"
 import { Link } from "gatsby"
-
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 
 const headerLinks = ["HOW IT WORKS", "WHO WE ARE", "BLOG", "CONTACT"]
 
 const Header = (props) => {
+    const [anchorEl, setAnchorEl] = React.useState(null);
+    const open = Boolean(anchorEl);
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
+    const handleClose = () => {
+        setAnchorEl(null);
+    };
     const [isSidebarVisible, setSideBarVisible] = useState(false)
     // const hamburgerMenu = <FontAwesomeIcon onClick={() => setSideBarVisible(true)} icon={faBars} className='hamburger-bars' />
     // const cancelMenu = <FontAwesomeIcon onClick={() => setSideBarVisible(false)} icon={faTimes} className='hamburger-bars' />
@@ -19,18 +29,45 @@ const Header = (props) => {
     return (
         <header>
             <div className='header-container'>
-                {/* <nav style={{ visibility: isSidebarVisible ? "hidden" : "" }} className="nav-left nav">
-                    <Link to="#how-it-works" className="nav-link left"><span>How It Works</span></Link>
-                </nav> */}
+                <nav style={{ visibility: isSidebarVisible ? "hidden" : "" }} className="nav-left">
+                    <Link to="/#how-it-works" className="nav-link left"><span>How It Works</span></Link>
+                </nav>
                 <Link to="/" className="header-logo" ><img src={condensedLogo} alt="small revino logo" /></Link>
-                {/* <nav style={{ visibility: isSidebarVisible ? "hidden" : "" }} className="nav-right nav">
-                    <Link to="/blog" className="nav-link right"><span>Blog</span></Link>
-                </nav> */}
-                {/* {!isSidebarVisible && hamburgerMenu}
-                {isSidebarVisible && cancelMenu} */}
+                <nav className="nav-right">
+                    <a
+                        aria-controls={open ? 'basic-menu' : undefined}
+                        aria-haspopup="true"
+                        aria-expanded={open ? 'true' : undefined}
+                        onClick={handleClick}
+                        className="dropdown-nav-link right"
+                    >
+                        <p>Learn More</p>
+                        <KeyboardArrowDownIcon className="dropdown_carrot" />
 
+                    </a>
+                    <Menu
+                        id="basic-menu"
+                        anchorEl={anchorEl}
+                        open={open}
+                        onClose={handleClose}
+                        MenuListProps={{
+                            'aria-labelledby': 'basic-button',
+                        }}
+
+                    >
+                        <MenuItem className="menu-item" onClick={handleClose}>
+                            <Link to="/blog">
+                                Blog
+                            </Link>
+                        </MenuItem>
+                        <MenuItem className="menu-item" onClick={handleClose}>
+                        <Link to="/podcast">
+                                Pocast
+                            </Link>
+                            </MenuItem>
+                    </Menu>
+                </nav>
             </div>
-
         </header>
     )
 
