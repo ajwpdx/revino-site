@@ -33,7 +33,7 @@ const BlogPostTemplate = ({ data, location }) => {
             />
           <Bio />
           </article>
-          <nav className="blog-post-nav">
+          {/* <nav className="blog-post-nav">
             <hr />
             <ul>
               <li>
@@ -51,7 +51,7 @@ const BlogPostTemplate = ({ data, location }) => {
                 )}
               </li>
             </ul>
-          </nav>
+          </nav> */}
         </main>
       </Layout>
       <Footer />
