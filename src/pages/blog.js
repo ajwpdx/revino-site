@@ -7,6 +7,12 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Header from '../layouts/Header'
 import Footer from '../layouts/Footer'
+import Hero from "../layouts/Hero"
+
+const hero = {
+    title: "Revino Blog",
+    description: "Welcome to the Revino blog, where you'll find updates from us and articles about the sustainabiliy and the refillable bottle economy."
+} 
 
 const BlogIndex = ({ data, location }) => {
     const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -32,12 +38,7 @@ const BlogIndex = ({ data, location }) => {
             <Header />
             <Layout location={location} title={siteTitle}>
                 <Seo title="All posts" />
-                <div className="page-hero-container">
-                    <div className="page-hero-content">
-                        <h1>Revino Blog</h1>
-                        <p>Welcome to the Revino blog, where you'll find updates from us and articles about the sustainabiliy and the refillable bottle economy.</p>
-                    </div>
-                </div>
+                <Hero title ={hero.title} description={hero.description}/>
                 <ol className='blog-list'>
                     {posts.map(post => {
                         const title = post.frontmatter.title || post.fields.slug

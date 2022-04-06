@@ -6,8 +6,6 @@ import MenuItem from '@mui/material/MenuItem';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 
-const headerLinks = ["HOW IT WORKS", "WHO WE ARE", "BLOG", "CONTACT"]
-
 const Header = (props) => {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -46,7 +44,7 @@ const Header = (props) => {
 
                     </a>
                     <Menu
-                        id="basic-menu"
+                        className="menu"
                         anchorEl={anchorEl}
                         open={open}
                         onClose={handleClose}

@@ -104,9 +104,13 @@ header {
     }
   }
 
-
-  .menu-item{
+  .menu {
     font-size: 2.5rem;
+    width: 200px;
+
+    .menu-item{
+      
+    }
   }
 
   .nav-left {
