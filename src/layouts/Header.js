@@ -53,16 +53,16 @@ const Header = (props) => {
                         }}
 
                     >
-                        <MenuItem className="menu-item" onClick={handleClose}>
-                            <Link to="/blog">
+                        <Link to="/blog">
+                            <MenuItem className="menu-item" onClick={handleClose}>
                                 Blog
-                            </Link>
-                        </MenuItem>
-                        <MenuItem className="menu-item" onClick={handleClose}>
-                        <Link to="/podcast">
-                                Pocast
-                            </Link>
                             </MenuItem>
+                        </Link>
+                        <Link to="/podcast">
+                            <MenuItem className="menu-item" onClick={handleClose}>
+                                Pocast
+                            </MenuItem>
+                        </Link>
                     </Menu>
                 </nav>
             </div>

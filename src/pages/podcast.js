@@ -20,7 +20,7 @@ const PodcastPage = () => {
     }
 
     const heroTitle = "Revino Podcast"
-    const heroDescription = "Welcome to the Revino Podcast"
+    const heroDescription = "Welcome to the Revino Podcast. This is where we have conversations with people who are passionate about sustainabilty and let you know about all thats happening at Revino."
 
     return (
         <div className='page-body'>

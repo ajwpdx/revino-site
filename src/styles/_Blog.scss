@@ -2,81 +2,83 @@
   background-color: white;
 }
 
-
-
-.blog-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 35px;
-  max-width: 1200px;
-  width: 90%;
-  margin: 0 auto;
-
-  .blog-card {
-    box-shadow: $box-shadow-main;
-    border-radius: 10px;
-    width: 275px;
-    margin: 10px;
-    background-color: white;
+.blog-list-container {
+  background-color: $color-light-gray;
+  .blog-list {
     display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    position: relative;
-    transition: all 0.3s ease-out;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 35px;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
 
-    &:hover {
+    .blog-card {
+      box-shadow: $box-shadow-main;
+      border-radius: 10px;
+      width: 300px;
+      margin: 10px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
       transition: all 0.3s ease-out;
-      box-shadow: 0px 8px 16px rgba(73, 68, 116, 0.2);
-      transform: translateY(-6px) scale(1) translate3d(0, 0, 0) perspective(1px);
-      transform-origin: left top;
-    }
 
-    img {
-      width: 100%;
-      max-height: 200px;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-    }
-    article {
-      padding: 15px;
-      height: 225px;
-
-      .blog-card-title {
-        margin: 5px 0;
-        h2 {
-          font-size: 1.6rem;
-        }
-
-        small {
-          color: $color-burnt-orange-tint;
-        }
+      &:hover {
+        transition: all 0.3s ease-out;
+        box-shadow: 0px 8px 16px rgba(73, 68, 116, 0.2);
+        transform: translateY(-6px) scale(1) translate3d(0, 0, 0)
+          perspective(1px);
+        transform-origin: left top;
       }
 
-      .blog-card-description {
-        p {
+      img {
+        width: 100%;
+        max-height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      article {
+        padding: 15px;
+        height: 225px;
+
+        .blog-card-title {
+          margin: 5px 0;
+          h2 {
+            font-size: 1.6rem;
+            
+          }
+
+          small {
+            color: $color-burnt-orange-tint;
+          }
+        }
+
+        .blog-card-description {
+          p {
+            font-size: 1.3rem;
+          }
+        }
+
+        .arrow-link {
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+          background-color: $color-light-gray;
+          padding: 8px 15px;
+          border-radius: 5px 0;
+          text-transform: uppercase;
           font-size: 1.3rem;
+          font-weight: bold;
+          color: $color-sky;
+          svg {
+            fill: $color-sky;
+          }
         }
       }
-
-      .arrow-link {
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-        background-color: $color-light-gray;
-        padding: 8px 15px;
-        border-radius: 5px 0;
-        text-transform: uppercase;
-        font-size: 1.3rem;
-        font-weight: bold;
-        color: $color-sky;
-        svg{
-            fill: $color-sky
-        }
-    }
-
     }
   }
 }

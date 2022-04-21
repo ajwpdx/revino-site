@@ -39,6 +39,8 @@ const BlogIndex = ({ data, location }) => {
             <Layout location={location} title={siteTitle}>
                 <Seo title="All posts" />
                 <Hero title ={hero.title} description={hero.description}/>
+                <div className="blog-list-container">
+
                 <ol className='blog-list'>
                     {posts.map(post => {
                         const title = post.frontmatter.title || post.fields.slug
@@ -80,6 +82,7 @@ const BlogIndex = ({ data, location }) => {
                         )
                     })}
                 </ol>
+                </div>
             </Layout>
             <Footer />
         </div>
