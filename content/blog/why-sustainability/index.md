@@ -1,5 +1,6 @@
 ---
 title-image: colorblock-recycle-bin.png
+titleImage: colorblock-recycle-bin.png
 title: Why Sustainability
 date: 2022-04-06T05:31:31.008Z
 description: The term sustainable development, its definition was formalized for
