@@ -50,7 +50,8 @@ const BlogIndex = ({ data, location }) => {
                             <li className="blog-card" key={post.fields.slug}>
                                 <Link to={post.fields.slug} itemProp="url">
                                     <div className='blog-item-img'>
-                                        <img src={logo} alt={title} />
+                                        <img src={post.fields.titleImage.src.absolutePath} 
+                                        alt={title} />
                                     </div>
                                     <article
                                         itemScope
@@ -108,6 +109,12 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          titleImage {
+            src {
+              absolutePath
+            }
+            alt
+          }
 
         }
       }

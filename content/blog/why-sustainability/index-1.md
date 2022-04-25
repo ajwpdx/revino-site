@@ -1,6 +1,8 @@
 ---
-title-image: pexels-polina-tankilevitch-3735218.jpg
-titleImage: colorblock-recycle-bin.png
+featuredimage: pexels-polina-tankilevitch-3735218.jpg
+titleImage: 
+  src: colorblock-recycle-bin.png
+  alt: image
 title: Why Sustainability
 date: 2022-04-25T00:04:19.577Z
 description: The term sustainable development, its definition was formalized for

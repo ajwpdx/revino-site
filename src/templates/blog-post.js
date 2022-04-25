@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -9,7 +9,7 @@ import Footer from "../layouts/Footer"
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const { previous, next } = data
+
 
   return (
     <>
@@ -25,31 +25,13 @@ const BlogPostTemplate = ({ data, location }) => {
             itemType="http://schema.org/Article"
           >
             <section className='article-title'>
+              <h1>Why Sustainability</h1>
             </section>
             <section
               dangerouslySetInnerHTML={{ __html: post.html }}
               itemProp="articleBody"
             />
           </article>
-          {/* <nav className="blog-post-nav">
-            <hr />
-            <ul>
-              <li>
-                {previous && (
-                  <Link to={previous.fields.slug} rel="prev">
-                    ← {previous.frontmatter.title}
-                  </Link>
-                )}
-              </li>
-              <li>
-                {next && (
-                  <Link to={next.fields.slug} rel="next">
-                    {next.frontmatter.title} →
-                  </Link>
-                )}
-              </li>
-            </ul>
-          </nav> */}
         </main>
       </Layout>
       <Footer />
