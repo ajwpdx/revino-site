@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../../bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Header from "../layouts/Header"
@@ -31,7 +30,6 @@ const BlogPostTemplate = ({ data, location }) => {
               dangerouslySetInnerHTML={{ __html: post.html }}
               itemProp="articleBody"
             />
-          <Bio />
           </article>
           {/* <nav className="blog-post-nav">
             <hr />
