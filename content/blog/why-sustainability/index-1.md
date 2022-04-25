@@ -1,5 +1,5 @@
 ---
-title-image: colorblock-recycle-bin.png
+title-image: pexels-polina-tankilevitch-3735218.jpg
 titleImage: colorblock-recycle-bin.png
 title: Why Sustainability
 date: 2022-04-25T00:04:19.577Z
