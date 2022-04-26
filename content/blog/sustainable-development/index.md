@@ -1,7 +1,7 @@
 ---
 title-image: pexels-polina-tankilevitch-3735218.jpg
-titleImage: colorblock-recycle-bin.png
-title: Sustainable Development
+titleImage: pexels-polina-tankilevitch-3735218.jpg
+title: Why Sustainability
 date: 2022-04-25T01:14:32.113Z
 description: The term sustainable development, its definition was formalized for
   the first time in the document known as the Brundtland Report (1987), the
