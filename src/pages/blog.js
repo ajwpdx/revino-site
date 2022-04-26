@@ -3,8 +3,8 @@ import { Link, graphql } from "gatsby"
 import '../styles/index.scss'
 import bottlesPhoto from "../images/bottles-in-bag-photo.jpg"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../../components/layout"
+import Seo from "../../components/seo"
 import Header from '../layouts/Header'
 import Footer from '../layouts/Footer'
 import Hero from "../layouts/Hero"

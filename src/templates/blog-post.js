@@ -1,16 +1,19 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../../components/layout"
+import Seo from "../../components/seo"
 import Header from "../layouts/Header"
 import Footer from "../layouts/Footer"
-import {bottlesPhoto} from "../images/bottles-in-bag-photo.jpg"
+import bottlesPhoto from "../images/bottles-in-bag-photo.jpg"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
+  const backgroundImageStyle = {
+    backgroundImage: `url(${bottlesPhoto})`
+  }
 
   return (
     <>
@@ -25,8 +28,11 @@ const BlogPostTemplate = ({ data, location }) => {
             itemScope
             itemType="http://schema.org/Article"
           >
-            <section className='article-title'>
-              <h1>Why Sustainability</h1>
+            <section className='article-title' style={backgroundImageStyle}>
+              <div className="title-container">
+
+              <h1 >{post.frontmatter.title}</h1>
+              </div>
             </section>
             <section
               dangerouslySetInnerHTML={{ __html: post.html }}

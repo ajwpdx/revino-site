@@ -16,7 +16,9 @@ const Footer = (props) => {
             <div className='footer-container'>
 
                 <div className='footer-logo'>
+                    <Link to="/">
                     <img src={whiteLogoSmall} alt="condensed Revnio logo" />
+                    </Link>
                     <p>Copyright Revino LLC {currentDate.getFullYear()}</p>
                 </div>
                 <nav>
