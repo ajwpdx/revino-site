@@ -17,10 +17,10 @@ const BlogPostTemplate = ({ data, location }) => {
 
   return (
     <>
-      <Seo
+      {/* <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
-      />
+      /> */}
       <Header />
       <Layout location={location} title={siteTitle}>
         <main className="blog-post">
@@ -30,7 +30,6 @@ const BlogPostTemplate = ({ data, location }) => {
           >
             <section className='article-title' style={backgroundImageStyle}>
               <div className="title-container">
-
               <h1 >{post.frontmatter.title}</h1>
               </div>
             </section>

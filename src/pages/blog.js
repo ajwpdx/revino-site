@@ -37,7 +37,7 @@ const BlogIndex = ({ data, location }) => {
         <div id='blog'>
             <Header />
             <Layout location={location} title={siteTitle}>
-                <Seo title="All posts" />
+                {/* <Seo title="All posts" /> */}
                 <Hero title ={hero.title} description={hero.description}/>
                 <div className="blog-list-container">
 
