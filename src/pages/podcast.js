@@ -31,7 +31,7 @@ const PodcastPage = () => {
                     {isLoading && <CircularProgress />}
                     <iframe 
                     onLoad={hideSpinner}
-                    src="https://anchor.fm/revinobottles/embed/episodes/Rediscovering-Sustainability-e17o1td" className="podcast-player" frameborder="0" scrolling="no" ></iframe>
+                    src="https://anchor.fm/revinobottles/embed/episodes/Rediscovering-Sustainability-e17o1td" className="podcast-player" frameBorder="0" scrolling="no" ></iframe>
                 </div>
             </main>
             <Footer />
