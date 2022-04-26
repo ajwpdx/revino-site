@@ -3,15 +3,7 @@ import twoBottles from '../../images/two-bottle-side-graphic.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
 
-const formValues = {
-    email: "",
-    message: "",
-    name: ""
-}
-
 const ContactDialog = (props) => {
-
-    const [formValues, setFormValues] = useState(formValues)
 
     const closeDialog = (evt) => {
         props.setContactOpen(false)

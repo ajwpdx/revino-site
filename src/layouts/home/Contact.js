@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import ContactDialog  from './ContactDialog'
-import beerBottles from "../../images/beer-bottles-cropped.png"
 
 const Contact = (props) => {
 

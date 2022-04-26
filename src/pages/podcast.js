@@ -7,8 +7,6 @@ import Footer from "../layouts/Footer"
 import Hero from "../layouts/Hero"
 
 
-import Contact from "../layouts/home/Contact"
-
 // CMS.init()
 // markup
 const PodcastPage = () => {
@@ -31,7 +29,7 @@ const PodcastPage = () => {
                     {isLoading && <CircularProgress />}
                     <iframe 
                     onLoad={hideSpinner}
-                    src="https://anchor.fm/revinobottles/embed/episodes/Rediscovering-Sustainability-e17o1td" className="podcast-player" frameBorder="0" scrolling="no" ></iframe>
+                    src="https://anchor.fm/revinobottles/embed/episodes/Rediscovering-Sustainability-e17o1td" title="podcast-player" className="podcast-player" frameBorder="0" scrolling="no" ></iframe>
                 </div>
             </main>
             <Footer />

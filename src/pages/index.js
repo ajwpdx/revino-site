@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import "../styles/index.scss"
 
 import Header from "../layouts/Header"
