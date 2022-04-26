@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Header from "../layouts/Header"
 import Footer from "../layouts/Footer"
+import {bottlesPhoto} from "../images/bottles-in-bag-photo.jpg"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark

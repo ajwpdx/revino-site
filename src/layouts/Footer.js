@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faInstagram, faFacebookF,} from '@fortawesome/free-brands-svg-icons'
 import {socialMedia, emailAddresses} from "../data/ExternalLinks"
+import { Link } from "gatsby"
 
 import whiteLogoSmall from '../images/revino-logo-white-02.png'
 
@@ -20,9 +21,9 @@ const Footer = (props) => {
                 </div>
                 <nav>
                     <ul>
-                    <li><a href="#how-it-works">How It Works</a></li>
-                    <li><a href="">Who We Are</a></li>
-                    <li><a href="/blog">Blog</a></li>
+                    <li><Link to="/#how-it-works">How It Works</Link></li>
+                    <li><Link to="/blog">Blog</Link></li>
+                    <li><Link to="/podcast">Podcast</Link></li>
                     <li><a href="mailto:keenan@revinobottles">Contact</a></li>
                     </ul>
                 </nav>

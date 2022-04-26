@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 import '../styles/index.scss'
-import logo from "../images/revino-logo-blue.png"
+import bottlesPhoto from "../images/bottles-in-bag-photo.jpg"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -50,7 +50,7 @@ const BlogIndex = ({ data, location }) => {
                             <li className="blog-card" key={post.fields.slug}>
                                 <Link to={post.fields.slug} itemProp="url">
                                     <div className='blog-item-img'>
-                                        <img src={post.fields.titleImage} 
+                                        <img src={bottlesPhoto} 
                                         alt={title} />
                                     </div>
                                     <article
