@@ -1,12 +1,12 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faInstagram, faFacebookF, faTwitter, faLinkedin,} from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faFacebookF,} from '@fortawesome/free-brands-svg-icons'
 import {socialMedia, emailAddresses} from "../data/ExternalLinks"
 
 import whiteLogoSmall from '../images/revino-logo-white-02.png'
 
-const currentDate = new Date
+const currentDate = new Date()
 
 const Footer = (props) => {
 
@@ -30,8 +30,6 @@ const Footer = (props) => {
                     <ul>
                         <li><a href = {socialMedia.INSTAGRAM} ><FontAwesomeIcon icon={faInstagram} className='social-link'/></a></li>
                         <li><a href = {socialMedia.FACEBOOK} ><FontAwesomeIcon icon={faFacebookF} className='social-link'/></a></li>
-                        {/* <li><FontAwesomeIcon icon={faTwitter} className='social-link'/></li>
-                        <li><FontAwesomeIcon icon={faLinkedin} className='social-link'/></li> */}
                         <li><a href = {emailAddresses.KEENAN_OHEARN} ><FontAwesomeIcon icon={faEnvelope} className='social-link'/></a></li>
                     </ul>
                 </div>

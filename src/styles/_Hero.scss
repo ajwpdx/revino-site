@@ -4,7 +4,7 @@
     display: flex;
   
     justify-content: center;
-    background-color: $color-warm-brown;
+    background-color: $color-light-gray;
   
    .page-hero-content {
       width: 80%;
@@ -13,7 +13,7 @@
       flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
-      color: white;
+      color: $color-night-sky-blue;
       
       h1 {
           font-size: 4.5rem;
