@@ -22,7 +22,7 @@ const Header = (props) => {
                                 Blog
                             </Link>
                             <Link className="menu-link" to="/podcast">
-                                Pocast
+                                Podcast
                             </Link>
                         </div>
                     </div>
