@@ -8,6 +8,8 @@ description: The term sustainable development, its definition was formalized for
   result of the United Nations World Commission on Environment and Development,
   created in the United Nations Assembly in 1983.
 ---
+Ok, so you may have heard the term sustainability thrown around by companies boasting their newly minted benefit corporation badges or sharing some great new eco friendly value statement.... but where did this all start?
+
 The term sustainable development, its definition was formalized for the first time in the document known as the Brundtland Report (1987), the result of the United Nations World Commission on Environment and Development, created in the United Nations Assembly in 1983. Said definition was assumed in Principle 3 of the Rio Declaration (1992). Starting in the 1970s, scientists began to realize that many of their actions had a great impact on nature, so some specialists pointed out the obvious loss of biodiversity and developed theories to explain the vulnerability of natural systems. Sustainable development is based on 3 factors: society, economy, and environment. In Brundtland's report, it is defined as follows: Meeting the needs of the present generations without compromising the possibilities of those of the future to meet their own needs.
 
 Development and social welfare are limited by the technological level, the resources of the environment, and the capacity of the environment to absorb the effects of human activity. Faced with this situation, the possibility of improving technology and social organization is raised, so that the environment can recover at the same rate as it is affected by human activity, in order to avoid a deficit of resources.
