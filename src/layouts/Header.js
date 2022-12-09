@@ -10,11 +10,11 @@ const Header = (props) => {
     return (
         <header>
             <div className='header-container'>
-                <nav className="nav-left">
+                {/* <nav className="nav-left">
                     <Link to="/#how-it-works" className="nav-link left"><span>How It Works</span></Link>
-                </nav>
+                </nav> */}
                 <Link to="/" className="header-logo" ><img src={condensedLogo} alt="small revino logo" /></Link>
-                <nav className="nav-right">
+                {/* <nav className="nav-right">
                     <div className="dropdown">
                         <a className="dropbtn" onClick={()=> setOpenDropdown(!openDropdown)} >Learn More <KeyboardArrowDownIcon/></a>
                         <div className={openDropdown ? "open dropdown-content" : "hidden dropdown-content"}>
@@ -26,7 +26,7 @@ const Header = (props) => {
                             </Link>
                         </div>
                     </div>
-                </nav>
+                </nav> */}
             </div>
         </header>
     )
