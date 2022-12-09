@@ -2,9 +2,9 @@ footer {
   color: white;
   background: $color-night-sky-blue;
   min-height: 225px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
 
   @media (max-width: 768px) {
     min-height: 350px;
