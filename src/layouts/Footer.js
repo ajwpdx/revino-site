@@ -15,20 +15,20 @@ const Footer = (props) => {
         <footer>
             <div className='footer-container'>
 
-                <div className='footer-logo'>
+                {/* <div className='footer-logo'>
                     <Link to="/">
                     <img src={whiteLogoSmall} alt="condensed Revnio logo" />
                     </Link>
                     <p>Copyright Revino LLC {currentDate.getFullYear()}</p>
-                </div>
-                <nav>
+                </div> */}
+                {/* <nav>
                     <ul>
                     <li><Link to="/#how-it-works">How It Works</Link></li>
                     <li><Link to="/blog">Blog</Link></li>
                     <li><Link to="/podcast">Podcast</Link></li>
                     <li><a href="mailto:keenan@revinobottles">Contact</a></li>
                     </ul>
-                </nav>
+                </nav> */}
                 <div className='social-media-links'>
                     <ul>
                         <li><a href = {socialMedia.INSTAGRAM} ><FontAwesomeIcon icon={faInstagram} className='social-link'/></a></li>
