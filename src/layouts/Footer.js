@@ -15,12 +15,12 @@ const Footer = (props) => {
         <footer>
             <div className='footer-container'>
 
-                {/* <div className='footer-logo'>
+                <div className='footer-logo'>
                     <Link to="/">
                     <img src={whiteLogoSmall} alt="condensed Revnio logo" />
                     </Link>
                     <p>Copyright Revino LLC {currentDate.getFullYear()}</p>
-                </div> */}
+                </div>
                 {/* <nav>
                     <ul>
                     <li><Link to="/#how-it-works">How It Works</Link></li>
